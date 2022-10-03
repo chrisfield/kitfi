@@ -1,0 +1,8 @@
+{
+  "extends": "tsconfig/view.json",
+  "include": ["src"],
+  "exclude": ["dist", "build", "node_modules"],
+  "compilerOptions": {
+    "rootDir": "./src"
+  }
+}

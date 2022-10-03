@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "counter",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --force --config vite.ts --mode dev",
+    "prod": "vite --force --config vite.ts"
+  },
+  "dependencies": {
+    "signal": "workspace:*",
+    "view": "workspace:*"
+  },
+  "devDependencies": {
+    "tsconfig": "workspace:*",
+    "vite": "^2.9.15",
+    "view-vite": "workspace:*"
+  }
+}
